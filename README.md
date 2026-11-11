@@ -9,7 +9,7 @@ To setup a project for the lane detection or FIR filter, please follow these ste
 3. download the files from this repository and unpack them
 4. setup a project for the image generator
 5. add *street_adapted_to_arty_z7.vhd* and *street_image_720p.vhd* to your project
-6. add the *Arty-Z7-20-Master_RL.xdc* from this repository (root) to your constraints
+6. add the *Arty-Z7-20-Master_RL.xdc* from this repository (in *constraints_files*) to your constraints
 7. go to the tcl console in Vivado, go into the "FPGA-Vision-image-generator-adaptations-main" directory with *cd "x:/your_path/FPGA-Vision-image-generator-adaptations-main"* and execute
    * *source ../all_ips_image_generator_Arty_Z7.tcl*
   
